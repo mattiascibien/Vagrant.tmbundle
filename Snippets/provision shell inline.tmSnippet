@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>config.vm.provision :shell, inline: "${1:apt-get update}"</string>
+	<key>name</key>
+	<string>provision shell inline</string>
+	<key>scope</key>
+	<string>source.ruby.vagrant</string>
+	<key>tabTrigger</key>
+	<string>psi</string>
+	<key>uuid</key>
+	<string>0E691FA8-70DF-4FE5-A621-BD233303C778</string>
+</dict>
+</plist>
